@@ -1,0 +1,37 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Generate resource headers
+*.R.h
+*.js.h
+
+# QT files
+*.pro.user
+
+# Annoying OSX files
+*.DS_Store
+Thumbs.db
+
+# R
+JASP-Engine/R-*
+.Rapp.history
+
+# .exe
+*.exe
+
+# .nsi
+Tools/deleteFiles*.nsi
+Tools/includeFiles*.nsi
+JASP.pro.user.b601785
+.Rproj.user
