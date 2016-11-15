@@ -26,7 +26,7 @@ Dialog::~Dialog()
 
 void Dialog::on_pushButton_clicked()
 {
-	//Add
+    //Add!
 	int row = _model->rowCount();
 	_model->insertRows(row, 1);
 	QModelIndex index = _model->index(row);
