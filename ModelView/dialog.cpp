@@ -7,7 +7,8 @@ Dialog::Dialog(QWidget *parent) :
 {
 	ui->setupUi(this);
 	QStringList list;
-    list << "aap" << "noten" << "mies" << "toto" << "tata" << "blabla";
+	//Below is the list
+	list << "aap" << "noten" << "mies" << "toto" << "tata!" << "blabla";
 	_model = new QStringListModel(this);
 	_model->setStringList(list);
 	ui->comboBox->setModel(_model);
