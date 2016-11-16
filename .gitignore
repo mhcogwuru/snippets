@@ -36,6 +36,4 @@ Tools/includeFiles*.nsi
 JASP.pro.user.b601785
 .Rproj.user
 
-ModelView/ModelView.pro.user.4caed6b
-
-ModelView/ModelView.pro.user
+ModelView/ModelView.pro.user*
