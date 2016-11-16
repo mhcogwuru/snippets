@@ -26,7 +26,7 @@ Dialog::~Dialog()
 
 void Dialog::on_pushButton_clicked()
 {
-    //Add!
+    //Add
 	int row = _model->rowCount();
 	_model->insertRows(row, 1);
 	QModelIndex index = _model->index(row);
@@ -49,6 +49,6 @@ void Dialog::on_pushButton_2_clicked()
 
 void Dialog::on_pushButton_3_clicked()
 {
-	//Delete
+    //Deleted
 	_model->removeRows(ui->listView->currentIndex().row(), 1);
 }
