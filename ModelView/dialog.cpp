@@ -40,7 +40,7 @@ void Dialog::on_pushButton_2_clicked()
 {
     //Insert
 	int row = ui->listView->currentIndex().row();
-	_model->insertRows(row, 1);
+    _model->insertRows(row, 1);
 	QModelIndex index = _model->index(row);
 	ui->listView->setCurrentIndex(index);
 	ui->listView->edit(index);
