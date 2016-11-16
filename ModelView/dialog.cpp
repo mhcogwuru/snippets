@@ -10,7 +10,7 @@ Dialog::Dialog(QWidget *parent) :
     //Below is the short list of named features
 
 
-    list << "aap" << "noten" << "mies" << "toto" << "tata!" << "blhho";
+    list << "aapje" << "noten" << "mies" << "toto" << "tata!" << "blhho";
 	_model = new QStringListModel(this);
 	_model->setStringList(list);
 	ui->comboBox->setModel(_model);
