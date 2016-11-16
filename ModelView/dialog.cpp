@@ -38,7 +38,7 @@ void Dialog::on_pushButton_clicked()
 
 void Dialog::on_pushButton_2_clicked()
 {
-	//Insert
+    //Insert
 	int row = ui->listView->currentIndex().row();
 	_model->insertRows(row, 1);
 	QModelIndex index = _model->index(row);
